@@ -123,7 +123,7 @@ INSERT INTO personnel (nom, email, tel, mot_de_passe, chef_id) VALUES
 INSERT INTO personnel (nom, email, tel, mot_de_passe, chef_id) VALUES 
 ('Agent Accueil', 'accueil@library.com', '0522445566', 'hash_mdp_456', 1);
 
-select nom from rayon;
+select * from rayon;
 
 select nom , prenom from auteur;
 SELECT titre, annee_publication FROM ouvrage;
